@@ -1,5 +1,8 @@
 import java.util.*;
 
+/**
+ * Generates a greeting message.
+ */
 public class Message {
 
   private static int count = 0;
