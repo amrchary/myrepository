@@ -1,1 +1,1 @@
-Sample file in the git repository.
+Simple hello world program with additional messages.
