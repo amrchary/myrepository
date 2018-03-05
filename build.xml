@@ -3,8 +3,8 @@
 
     <property environment="env"/>
     <property name="src.dir" value="src"/>
-    <property name="main.dir" value="${src.dir}/main"/>
-    <property name="test.dir" value="${src.dir}/test"/>
+    <property name="main.dir" value="${src.dir}/main/java"/>
+    <property name="test.dir" value="${src.dir}/test/java"/>
     <property name="target.dir" value="target"/>
     <property name="classes.dir" value="${target.dir}/classes"/>
     <property name="testclasses.dir" value="${target.dir}/test-classes"/>
