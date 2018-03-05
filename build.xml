@@ -17,7 +17,16 @@
     </target>
 
     <target name="jar" description="JARs the Task" depends="compile">
-        <jar destfile="${target.dir}/${ant.project.name}.jar" basedir="${classes.dir}"/>
+        <jar destfile="${target.dir}/${ant.project.name}.jar"
+             basedir="${classes.dir}">
+            <manifest>
+                <attribute name="Main-Class" value="HelloWorld"/>
+            </manifest>
+        </jar>
     </target>
 
+    <target name="run">
+        <java jar="${target.dir}/${ant.project.name}.jar" fork="true"/>
+    </target>
 </project>
+
