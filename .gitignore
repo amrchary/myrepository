@@ -1,4 +1,7 @@
 # ignore all .class files
+.classpath
+.project
 **/*.class
-target/**
-lib/**
+/target/**
+/lib/**
+/bin/
